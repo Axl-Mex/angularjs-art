@@ -7,14 +7,14 @@
 </head>
 <body>
 
-<div ng-controller = "MyController">
+<div ng-controller = "myController">
   <h1>{{author.name}}</h1>
   <p>{{ author.title + ', ' + author.company }}</p>
 </div>
 
 <script>
 
-function MyController($scope) {
+function myController($scope) {
   $scope.author = {
     'name' : 'Ray Villalobos',
     'title' : 'Staff Author',
